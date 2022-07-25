@@ -16,6 +16,9 @@
     <Filter Include="리소스 파일\Shader">
       <UniqueIdentifier>{7aaa6ac6-aca8-4b8e-b4ef-a98fff23a4a2}</UniqueIdentifier>
     </Filter>
+    <Filter Include="리소스 파일\Textures">
+      <UniqueIdentifier>{6882b6e8-a329-469b-8b51-1f1fbdb2b79a}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -37,6 +40,9 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="stb.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -63,5 +69,13 @@
     <ClInclude Include="VAO.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="D:\kim\이세돌\Segu\segu_image\segu256.png">
+      <Filter>리소스 파일\Textures</Filter>
+    </Image>
   </ItemGroup>
 </Project>
