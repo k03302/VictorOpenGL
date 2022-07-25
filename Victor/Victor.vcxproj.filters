@@ -45,6 +45,9 @@
     <ClCompile Include="Texture.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Default.vert">
@@ -72,9 +75,15 @@
     <ClInclude Include="Texture.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Image Include="D:\kim\이세돌\Segu\segu_image\segu256.png">
+      <Filter>리소스 파일\Textures</Filter>
+    </Image>
+    <Image Include="brick.png">
       <Filter>리소스 파일\Textures</Filter>
     </Image>
   </ItemGroup>
