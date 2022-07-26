@@ -151,6 +151,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Default.vert" />
+    <None Include="light.frag" />
+    <None Include="light.vert" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="Default.frag" />
